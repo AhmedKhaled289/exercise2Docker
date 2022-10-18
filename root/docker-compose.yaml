@@ -13,7 +13,7 @@ services:
     ports:
       - "8080:8080"
      depends_on:
-      - compose-api
+      - compose-ui
   compose-ui:
     container_name: apihost
     image: "servicelayer"
